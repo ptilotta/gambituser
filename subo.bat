@@ -1,6 +1,6 @@
 git add .
 git commit -m "Ultimo Commit"
 git push
-$Env:GOOS="linux"; $Env:GOARCH="amd64"; go build main.go 
+Env:GOOS="linux"; Env:GOARCH="amd64"; go build main.go 
 del main.zip
 tar.exe -a -cf main.zip main 
